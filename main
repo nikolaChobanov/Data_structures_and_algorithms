@@ -1,0 +1,129 @@
+#include <iostream>
+#include "ResizingStack.cpp"
+#include "ResizingQueue.cpp"
+#include "Letter.h"
+
+using namespace std;
+
+int main()
+{
+ //Stack
+  /*  ResizingStack<int> def;
+    cout << def.stackSize() << endl;
+    def.pop();
+    cout << def.stackTop() << endl;
+    cout << def.isEmpty() << endl;
+
+    for(int i = 0; i < 60; i++)
+        def.push(i);
+
+    cout << def << endl;
+    cout << def.stackTop() << endl;
+    cout << def.isEmpty() << endl;
+    cout << def.stackSize() << endl;
+
+    def.stackSwap(-1, 5);
+    def.stackSwap(1, 62);
+    def.stackSwap(0, 3);
+    cout << def << endl;
+
+    ResizingStack<char*> random, modnar;
+    random.push("I");
+    random.push("enjoy");
+    random.push("Game");
+    random.push("of");
+    random.push("Thrones");
+    ResizingStack<char*> imposter;
+    imposter = random;
+
+    cout << random << endl;
+    cout << imposter << endl;
+
+    cout << imposter.pop() << endl;
+    cout << imposter << endl;
+    cout << imposter.stackTop() << endl;
+    cout << imposter.stackSize() << endl;
+    imposter.stackSwap(0, 1);
+    cout << imposter << endl;
+
+
+    modnar.push("I");
+    modnar.push("love");
+    modnar.push("Breaking");
+    modnar.push("Bad");
+    cout << modnar << endl;
+    random.stackSwapStack(modnar);
+    cout << random << endl;
+    cout << modnar << endl;
+*/
+
+ //Queue
+  /* ResizingQueue<int> def;
+    cout << def.queueSize() << endl;
+    def.pop();
+    cout << def.getHead() << endl;
+    cout << def.getTail() << endl;
+    cout << def.isEmpty() << endl;
+
+    for(int i = 0; i < 60; i++)
+        def.push(i);
+
+    cout << def << endl;
+    cout << def.queueSize() << endl;
+    cout << def.getHead() << endl;
+    cout << def.getTail() << endl;
+    cout << def.isEmpty() << endl;
+
+    def.swapElements(-1, 5);
+    def.swapElements(1, 62);
+    def.swapElements(0, 3);
+    cout << def << endl;
+
+    ResizingQueue<int> r;
+
+    for(int i = 0; i < 30; i++)
+        r.push(i);
+    for(int i = 0; i < 15; i++)
+        cout << r.pop() << " ";
+    cout << endl;
+    for(int i = 0; i < 25; i++)
+        r.push(i + 100);
+
+    cout << r << endl;
+    cout << r.queueSize() << endl;
+    cout << r.getHead() << endl;
+    cout << r.getTail() << endl;
+
+    for(int i = 0; i < 32; i++)
+        r.pop();
+
+    cout << r << endl;
+    cout << r.queueSize() << endl;
+    cout << r.getHead() << endl;
+    cout << r.getTail() << endl;
+
+    ResizingQueue<int> q = r;
+    cout << q << endl;
+    cout << q.queueSize() << endl;
+    cout << q.getHead() << endl;
+    cout << q.getTail() << endl;
+
+    ResizingQueue<int> s(q);
+    cout << s << endl;
+    cout << s.queueSize() << endl;
+    cout << s.getHead() << endl;
+    cout << s.getTail() << endl;
+
+    for(int i = 0; i < 15; i++)
+        s.push(i + 5);
+
+    s.swapQueue(r);
+    cout << s << endl;
+    cout << r << endl;
+
+*/
+
+
+
+    return 0;
+}
